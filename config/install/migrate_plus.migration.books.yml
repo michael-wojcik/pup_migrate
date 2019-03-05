@@ -1,0 +1,252 @@
+id: books
+label: Books from ONIX feed
+migration_group: onix
+dependencies:
+  enforced:
+    module:
+      - pup_migrate
+source:
+  plugin: url
+  data_fetcher_plugin: file
+  data_parser_plugin: xml
+  urls: private://PUP_WebOnix3.0_Long_20181121_0935.xml_pp_2018-1121-131424_copy.xml
+  item_selector: /ONIXMessage/Product
+  fields:
+    -
+      name: title
+      label: Title
+      selector: DescriptiveDetail/TitleDetail/TitleElement/TitleWithoutPrefix
+    -
+      name: subtitle
+      label: Subtitle
+      selector: DescriptiveDetail/TitleDetail/TitleElement/Subtitle
+    -
+      name: isbn
+      label: ISBN
+      selector: ProductIdentifier[ProductIDType = "03"]/IDValue
+    -
+      name: main_subject
+      label: Main Subject
+      selector: DescriptiveDetail/Subject[SubjectSchemeIdentifier = "10" and count(MainSubject) = 1]/SubjectCode
+    -
+      name: all_subjects
+      label: All Subjects
+      selector: DescriptiveDetail/Subject[SubjectSchemeIdentifier = "10"]/SubjectCode
+    -
+      name: pages_num
+      label: Number of Pages
+      selector: DescriptiveDetail/Extent[ExtentType = "00"]/ExtentValue
+    -
+      name: pages_unit
+      label: Unit of Pages
+      selector: DescriptiveDetail/Extent[ExtentType = "00"]/ExtentUnit
+    -
+      name: book_type
+      label: Book Type
+      selector: DescriptiveDetail/ProductForm
+    -
+      name: copyright_year
+      label: Copyright Year
+      selector: PublishingDetail/CopyrightStatement/CopyrightYear
+    -
+      name: publishing_date
+      label: Publishing Date
+      selector: PublishingDetail/PublishingDate/Date
+    -
+      name: tagline
+      label: Tagline
+      selector: CollateralDetail/TextContent[TextType = "03"]/Text
+    -
+      name: overview
+      label: Overview
+      selector: CollateralDetail/TextContent[TextType = "03"]/Text
+    -
+      name: work_ref_id
+      label: Work ID
+      selector: RelatedMaterial/RelatedWork/WorkIdentifier[WorkIDType = "01"]/IDValue
+    -
+      name: prices
+      label: Prices
+      selector: ProductSupply/SupplyDetail/Price[Territory/CountriesIncluded = "US" or Territory/CountriesIncluded = "GB"]/PriceAmount
+    -
+      name: currencies
+      label: Currencies
+      selector: ProductSupply/SupplyDetail/Price[Territory/CountriesIncluded = "US" or Territory/CountriesIncluded = "GB"]/CurrencyCode
+    -
+      name: contrib_seq_num
+      label: Contributor Sequence Number
+      selector: DescriptiveDetail/Contributor/SequenceNumber
+    -
+      name: contrib_role
+      label: Contributor Role
+      selector: DescriptiveDetail/Contributor/ContributorRole
+    -
+      name: contrib_uuid
+      label: Contributor UUID
+      selector: DescriptiveDetail/Contributor/NameIdentifier[NameIDType = "01" and IDTypeName = "BiblioID"]/IDValue
+    -
+      name: series_uuid
+      label: Series UUID
+      selector: DescriptiveDetail/Collection[CollectionType = "10"]/CollectionIdentifier/IDValue
+    -
+      name: length
+      label: Length
+      selector: DescriptiveDetail/Measure[MeasureType = "01"]/Measurement
+    -
+      name: length_unit
+      label: Length Unit
+      selector: DescriptiveDetail/Measure[MeasureType = "01"]/MeasureUnitCode
+    -
+      name: width
+      label: Width
+      selector: DescriptiveDetail/Measure[MeasureType = "02"]/Measurement
+    -
+      name: width_unit
+      label: Width Unit
+      selector: DescriptiveDetail/Measure[MeasureType = "02"]/MeasureUnitCode
+  ids:
+    isbn:
+      type: string
+process:
+  title: title
+  field_book_subtitle: subtitle
+  field_book_isbn: isbn
+  field_book_subject_main:
+    -
+      plugin: entity_lookup
+      source: main_subject
+      value_key: name
+      bundle_key: vid
+      bundle: bisac_codes
+      entity_type: taxonomy_term
+      ignore_case: true
+    -
+      plugin: entity_lookup
+      value_key: field_subject_codes
+      bundle_key: vid
+      bundle: subject
+      entity_type: taxonomy_term
+      ignore_case: true
+  field_book_subject_all:
+    -
+      plugin: entity_lookup
+      source: all_subjects
+      value_key: name
+      bundle_key: vid
+      bundle: bisac_codes
+      entity_type: taxonomy_term
+      ignore_case: true
+    -
+      plugin: entity_lookup
+      value_key: field_subject_codes
+      bundle_key: vid
+      bundle: subject
+      entity_type: taxonomy_term
+      ignore_case: true
+  field_book_pages: pages_num
+  field_book_pages_unit:
+    plugin: static_map
+    source: pages_unit
+    map:
+      "03": pages
+    default_value: pages
+  field_book_type:
+    plugin: entity_lookup
+    source: book_type
+    value_key: field_onix_product_form_codes
+    bundle_key: vid
+    bundle: book_type
+    entity_type: taxonomy_term
+    ignore_case: true
+  field_book_copyright_year: copyright_year
+  field_book_published_date:
+    plugin: format_date
+    from_format: 'Ymd'
+    to_format: 'Y-m-d'
+    source: publishing_date
+  field_book_short_copy:
+    plugin: tagline_processor
+    source: tagline
+  field_book_overview: overview
+  field_book_price:
+    plugin: price
+    source:
+      - currencies
+      - prices
+  field_book_contributors:
+    -
+      plugin: array_combine
+      source:
+        - contrib_uuid
+        - contrib_role
+      keys:
+        - 'uuid'
+        - 'role'
+    -
+      plugin: sub_process
+      process:
+        temporary_ids:
+          plugin: migration_lookup
+          migration: book_contrib_rel
+          source_ids:
+            book_contrib_rel:
+              - role
+              - uuid
+          no_stub: true
+        target_id:
+          plugin: extract
+          source: '@temporary_ids'
+          index:
+            - 0
+        target_revision_id:
+          plugin: extract
+          source: '@temporary_ids'
+          index:
+            - 1
+  field_book_series:
+    plugin: migration_lookup
+    migration: book_series
+    source: series_uuid
+    source_ids:
+      book_series:
+        - series_uuid
+    no_stub: true
+  field_book_dimensions/length: length
+  field_book_dimensions/width: width
+  field_book_dimensions/unit: width_unit
+  field_work_ref_id:
+    plugin: migration_lookup
+    migration: work_ids
+    source: work_ref_id
+    no_stub: true
+  field_book_awards:
+    plugin: paragraph_entity_lookup
+    source: '@field_work_ref_id'
+    value_key: field_work
+    bundle_key: type
+    bundle: book_award
+    entity_type: paragraph
+    ignore_case: true
+  field_book_reviews:
+    plugin: paragraph_entity_lookup
+    source: '@field_work_ref_id'
+    value_key: field_work
+    bundle_key: type
+    bundle: book_review
+    entity_type: paragraph
+    ignore_case: true
+destination:
+  plugin: entity:node
+  default_bundle: book
+migration_dependencies:
+  required: {}
+  optional:
+    - subjects
+    - book_types
+    - work_ids
+    - contributor_roles
+    - book_contributors
+    - book_contrib_rel
+    - book_series
+    - awards
+    - reviews

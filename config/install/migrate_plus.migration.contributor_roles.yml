@@ -1,0 +1,34 @@
+id: contributor_roles
+label: Migrate Contributor Roles taxonomy terms
+migration_group: onix
+migration_dependencies: {}
+dependencies:
+  enforced:
+    module:
+      - pup_migrate
+source:
+  plugin: csv
+  path: modules/custom/pup_migrate/artifacts/ONIX_BookProduct_Codelists_Issue_42_List_17.csv
+  header_row_count: 0
+  keys:
+    - code
+  column_names:
+    0:
+      codelist: Code List
+    1:
+      code: Code
+    2:
+      name: Name
+    3:
+      description: Description
+  ids:
+    code:
+      type: string
+process:
+  name: name
+  description: description
+  field_role_onix_code: code
+  field_role_simplified_label: name
+destination:
+  plugin: entity:taxonomy_term
+  default_bundle: contributor_roles

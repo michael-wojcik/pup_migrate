@@ -1,0 +1,29 @@
+id: work_ids
+label: Work IDs for ONIX feed
+migration_group: onix
+dependencies:
+  enforced:
+    module:
+      - pup_migrate
+source:
+  plugin: url
+  data_fetcher_plugin: file
+  data_parser_plugin: xml
+  urls: private://Biblio-AwardsAndReviews-Sup-Webfeed_11-29-18.xml
+  item_selector: /PUP_Supplemental_Webfeed/work_ref_ids/work_ref_id
+  ids:
+    work_ref_id:
+      type: string
+  fields:
+    -
+      name: work_ref_id
+      label: Work Reference ID
+      selector: ./text()
+process:
+  name: work_ref_id
+destination:
+  plugin: entity:taxonomy_term
+  default_bundle: works
+migration_dependencies:
+  required: {}
+  optional: {}

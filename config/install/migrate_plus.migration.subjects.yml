@@ -1,0 +1,45 @@
+id: subjects
+label: Migrate Subject taxonomy terms
+migration_group: onix
+dependencies:
+  enforced:
+    module:
+      - pup_migrate
+source:
+  plugin: csv
+  path: modules/custom/pup_migrate/artifacts/subjects.csv
+  header_row_count: 1
+  keys:
+    - uuid
+  column_names:
+    0:
+      uuid: UUID
+    1:
+      name: Subject/Sub-Discipline
+    2:
+      parent_uuid: Parent Subject
+    3:
+      bisac_codes: BISAC Codes
+process:
+  name: name
+  parent:
+    plugin: migration
+    migration: subjects
+    source: parent_uuid
+  field_subject_codes:
+    -
+      plugin: explode
+      source: bisac_codes
+      delimiter: ','
+    -
+      plugin: entity_generate
+      value_key: name
+      bundle: bisac_codes
+      entity_type: taxonomy_term
+      ignore_case: true
+destination:
+  plugin: entity:taxonomy_term
+  default_bundle: subject
+migration_dependencies:
+  required: {}
+  optional: {}

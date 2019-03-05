@@ -1,0 +1,59 @@
+id: reviews
+label: Reviews data from ONIX feed
+migration_group: onix
+dependencies:
+  enforced:
+    module:
+      - pup_migrate
+source:
+  plugin: url
+  data_fetcher_plugin: file
+  data_parser_plugin: xml
+  urls: private://Biblio-AwardsAndReviews-Sup-Webfeed_11-29-18.xml
+  item_selector: /PUP_Supplemental_Webfeed/Reviews/Review
+  fields:
+    -
+      name: work_ref
+      label: Work Ref
+      selector: work_ref
+    -
+      name: isbn13
+      label: ISBN 13
+      selector: ISBN13
+    -
+      name: review_text
+      label: Review Text
+      selector: ReviewText
+    -
+      name: review_rank
+      label: Review Rank
+      selector: Rank
+    -
+      name: review_id
+      label: Review ID
+      selector: RevIDNo
+  ids:
+    work_ref:
+      type: string
+    review_id:
+      type: integer
+process:
+  field_work:
+    plugin: migration_lookup
+    migration: work_ids
+    source: work_ref
+    source_ids:
+      work_ref_id:
+        - work_ref
+    no_stub: true
+  field_book_isbn: isbn13
+  field_review_text: review_text
+  field_review_rank: review_rank
+  field_review_id: review_id
+destination:
+  plugin: 'entity_reference_revisions:paragraph'
+  default_bundle: book_review
+migration_dependencies:
+  required: {}
+  optional:
+    - work_ids

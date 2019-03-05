@@ -1,0 +1,109 @@
+17,A01,By (author),Author of a textual work
+17,A02,With,"With or as told to: ‘ghost’ or secondary author of a literary work (for clarity, should not be used for true ‘ghost’ authors who are not credited on the book and whose existence is secret)"
+17,A03,Screenplay by,Writer of screenplay or script (film or video)
+17,A04,Libretto by,Writer of libretto (opera): see also A31
+17,A05,Lyrics by,Author of lyrics (song): see also A31
+17,A06,By (composer),Composer of music
+17,A07,By (artist),"Visual artist when named as the primary creator of, eg, a book of reproductions of artworks"
+17,A08,By (photographer),"Photographer when named as the primary creator of, eg, a book of photographs"
+17,A09,Created by,
+17,A10,From an idea by,
+17,A11,Designed by,
+17,A12,Illustrated by,"Artist when named as the creator of artwork which illustrates a text, or the originator (sometimes ‘penciller’ for collaborative art) of the artwork of a graphic novel or comic book"
+17,A13,Photographs by,Photographer when named as the creator of photographs which illustrate a text
+17,A14,Text by,"Author of text which accompanies art reproductions or photographs, or which is part of a graphic novel or comic book"
+17,A15,Preface by,Author of preface
+17,A16,Prologue by,Author of prologue
+17,A17,Summary by,Author of summary
+17,A18,Supplement by,Author of supplement
+17,A19,Afterword by,Author of afterword
+17,A20,Notes by,Author of notes or annotations: see also A29
+17,A21,Commentaries by,Author of commentaries on the main text
+17,A22,Epilogue by,Author of epilogue
+17,A23,Foreword by,Author of foreword
+17,A24,Introduction by,Author of introduction: see also A29
+17,A25,Footnotes by,Author/compiler of footnotes
+17,A26,Memoir by,Author of memoir accompanying main text
+17,A27,Experiments by,Person who carried out experiments reported in the text
+17,A29,Introduction and notes by,Author of introduction and notes: see also A20 and A24
+17,A30,Software written by,Writer of computer programs ancillary to the text
+17,A31,Book and lyrics by,Author of the textual content of a musical drama: see also A04 and A05
+17,A32,Contributions by,Author of additional contributions to the text
+17,A33,Appendix by,Author of appendix
+17,A34,Index by,Compiler of index
+17,A35,Drawings by,
+17,A36,Cover design or artwork by,Use also for the cover artist of a graphic novel or comic book if named separately
+17,A37,Preliminary work by,Responsible for preliminary work on which the work is based
+17,A38,Original author,Author of the first edition (usually of a standard work) who is not an author of the current edition
+17,A39,Maps by,Maps drawn or otherwise contributed by
+17,A40,Inked or colored by,"Use for secondary creators when separate persons are named as having respectively drawn and inked/colored/finished artwork, eg for a graphic novel or comic book. Use with A12 for ‘drawn by’. Use A40 for ‘finished by’, but prefer more specific codes A46 to A48 instead of A40 unless the more specific secondary roles are inappropriate, unclear or unavailable"
+17,A41,Paper engineering by,"Designer or paper engineer of die-cuts, press-outs or of pop-ups in a pop-up book, who may be different from the illustrator"
+17,A42,Continued by,Use where a standard work is being continued by somebody other than the original author
+17,A43,Interviewer,
+17,A44,Interviewee,
+17,A45,Comic script by,"Writer of dialogue, captions in a comic book (following an outline by the primary writer)"
+17,A46,Inker,Renders final comic book line art based on work of the illustrator or penciller. Preferred to code A40
+17,A47,Colorist,Provides comic book color art and effects. Preferred to code A40
+17,A48,Letterer,Creates comic book text balloons and other text elements (where this is a distinct role from script writer and/or illustrator)
+17,A51,Research by,Person or organization responsible for performing research on which the work is based. For use in ONIX 3.0 only
+17,A99,Other primary creator,Other type of primary creator not specified above
+17,B01,Edited by,
+17,B02,Revised by,
+17,B03,Retold by,
+17,B04,Abridged by,
+17,B05,Adapted by,
+17,B06,Translated by,
+17,B07,As told by,
+17,B08,Translated with commentary by,"This code applies where a translator has provided a commentary on issues relating to the translation. If the translator has also provided a commentary on the work itself, codes B06 and A21 should be used"
+17,B09,Series edited by,Name of a series editor when the product belongs to a series
+17,B10,Edited and translated by,
+17,B11,Editor-in-chief,
+17,B12,Guest editor,
+17,B13,Volume editor,
+17,B14,Editorial board member,
+17,B15,Editorial coordination by,
+17,B16,Managing editor,
+17,B17,Founded by,Usually the founder editor of a serial publication: Begruendet von
+17,B18,Prepared for publication by,
+17,B19,Associate editor,
+17,B20,Consultant editor,"Use also for ‘advisory editor’, ‘series advisor’, ‘editorial consultant’ etc"
+17,B21,General editor,
+17,B22,Dramatized by,
+17,B23,General rapporteur,"In Europe, an expert editor who takes responsibility for the legal content of a collaborative law volume"
+17,B24,Literary editor,"An editor who is responsible for establishing the text used in an edition of a literary work, where this is recognised as a distinctive role (in Spain, ‘editor literario’)"
+17,B25,Arranged by (music),
+17,B26,Technical editor,"Responsible for the technical accuracy and language, may also be involved in coordinating and preparing technical material for publication"
+17,B27,Thesis advisor or supervisor,
+17,B28,Thesis examiner,
+17,B29,Scientific editor,Responsible overall for the scientific content of the publication
+17,B30,Historical advisor,For use in ONIX 3.0 only
+17,B31,Original editor,Editor of the first edition (usually of a standard work) who is not an editor of the current edition. For use in ONIX 3.0 only
+17,B99,Other adaptation by,Other type of adaptation or editing not specified above
+17,C01,Compiled by,"For puzzles, directories, statistics, etc"
+17,C02,Selected by,For textual material (eg for an anthology)
+17,C03,Non-text material selected by,Eg for a collection of photographs etc
+17,C04,Curated by,Eg for an exhibition
+17,C99,Other compilation by,Other type of compilation not specified above
+17,D01,Producer,
+17,D02,Director,
+17,D03,Conductor,Conductor of a musical performance
+17,D04,Choreographer,Of a dance performance. For use in ONIX 3.0 only
+17,D99,Other direction by,Other type of direction not specified above
+17,E01,Actor,Performer in a dramatized production (including a voice performer in an audio production)
+17,E02,Dancer,
+17,E03,Narrator,"Where the narrator is a character in a dramatized production (including a voice performer in an audio production). For the ÔnarratorÕ of a non-dramatized audiobook, see code E07"
+17,E04,Commentator,
+17,E05,Vocal soloist,Singer etc
+17,E06,Instrumental soloist,
+17,E07,Read by,"Reader of recorded text, as in an audiobook"
+17,E08,"Performed by (orchestra, band, ensemble)",Name of a musical group in a performing role
+17,E09,Speaker,"Of a speech, lecture etc"
+17,E10,Presenter,"Introduces and links other contributors and material, eg within a documentary"
+17,E99,Performed by,"Other type of performer not specified above: use for a recorded performance which does not fit a category above, eg a performance by a stand-up comedian"
+17,F01,Filmed/photographed by,"Cinematographer, etc"
+17,F02,Editor (film or video),
+17,F99,Other recording by,Other type of recording not specified above
+17,Z01,Assisted by,"May be associated with any contributor role, and placement should therefore be controlled by contributor sequence numbering"
+17,Z02,Honored/dedicated to,
+17,Z98,(Various roles),"For use ONLY with ‘et al’ or ‘Various’ within <UnnamedPersons>, where the roles of the multiple contributors vary"
+17,Z99,Other,Other creative responsibility not falling within A to F above

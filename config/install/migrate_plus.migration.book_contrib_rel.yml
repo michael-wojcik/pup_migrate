@@ -1,0 +1,55 @@
+id: book_contrib_rel
+label: Book/Contributor Relationship paragraph entities from ONIX feed
+migration_group: onix
+dependencies:
+  enforced:
+    module:
+      - pup_migrate
+source:
+  plugin: url
+  data_fetcher_plugin: file
+  data_parser_plugin: xml
+  urls: private://PUP_WebOnix3.0_Long_20181121_0935.xml_pp_2018-1121-131424_copy.xml
+  item_selector: /ONIXMessage/Product/DescriptiveDetail/Contributor
+  fields:
+    -
+      name: role
+      label: Role
+      selector: ContributorRole
+    -
+      name: uuid
+      label: UUID
+      selector: NameIdentifier[NameIDType = "01" and IDTypeName = "BiblioID"]/IDValue
+    -
+      name: seq_num
+      label: Sequence Number
+      selector: SequenceNumber
+  ids:
+    role:
+      type: string
+    uuid:
+      type: integer
+process:
+  field_book_contributor:
+    plugin: migration_lookup
+    migration: book_contributors
+    source_ids:
+      book_contributors:
+        - uuid
+    no_stub: true
+  field_contrib_role:
+    plugin: migration_lookup
+    migration: contributor_roles
+    source_ids:
+      contributor_roles:
+        - role
+    no_stub: true
+  field_contrib_seq_num: seq_num
+destination:
+  plugin: 'entity_reference_revisions:paragraph'
+  default_bundle: book_contrib_rel
+migration_dependencies:
+  required: {}
+  optional:
+    - contributor_roles
+    - book_contributors

@@ -1,0 +1,32 @@
+id: book_types
+label: Migrates Book Type taxonomy terms
+migration_group: onix
+dependencies:
+  enforced:
+    module:
+      - pup_migrate
+source:
+  plugin: csv
+  path: modules/custom/pup_migrate/artifacts/book_types.csv
+  header_row_count: 1
+  keys:
+    - name
+  column_names:
+    0:
+      name: Name
+    1:
+      onix_product_form_codes: ONIX Product Form Codes
+process:
+  vid:
+    plugin: default_value
+    default_value: book_type
+  name: name
+  field_onix_product_form_codes:
+    plugin: explode
+    source: onix_product_form_codes
+    delimiter: ','
+destination:
+  plugin: entity:taxonomy_term
+migration_dependencies:
+  required: {}
+  optional: {}

@@ -1,0 +1,62 @@
+id: awards
+label: Awards data from ONIX feed
+migration_group: onix
+dependencies:
+  enforced:
+    module:
+      - pup_migrate
+source:
+  plugin: url
+  data_fetcher_plugin: file
+  data_parser_plugin: xml
+  urls: private://Biblio-AwardsAndReviews-Sup-Webfeed_11-29-18.xml
+  item_selector: /PUP_Supplemental_Webfeed/Awards/Award
+  fields:
+    -
+      name: work_ref
+      label: Work Ref
+      selector: work_ref
+    -
+      name: award_text
+      label: Award Text
+      selector: AwardText
+    -
+      name: award_rank
+      label: Award Rank
+      selector: Rank
+    -
+      name: award_type
+      label: Award Type
+      selector: Type
+    -
+      name: award_id
+      label: Award ID
+      selector: AwardID
+  ids:
+    work_ref:
+      type: string
+    award_id:
+      type: integer
+process:
+  field_work:
+    plugin: migration_lookup
+    migration: work_ids
+    source: work_ref
+    source_ids:
+      work_ref_id:
+        - work_ref
+    no_stub: true
+  field_award_text:
+    plugin: callback
+    callable: html_entity_decode
+    source: award_text
+  field_award_rank: award_rank
+  field_award_type: award_type
+  field_award_id: award_id
+destination:
+  plugin: 'entity_reference_revisions:paragraph'
+  default_bundle: book_award
+migration_dependencies:
+  required: {}
+  optional:
+    - work_ids

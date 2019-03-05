@@ -1,0 +1,34 @@
+id: book_series
+label: Series from ONIX feed
+migration_group: onix
+dependencies:
+  enforced:
+    module:
+      - pup_migrate
+source:
+  plugin: url
+  data_fetcher_plugin: file
+  data_parser_plugin: xml
+  urls: private://PUP_WebOnix3.0_Long_20181121_0935.xml_pp_2018-1121-131424_copy.xml
+  item_selector: /ONIXMessage/Product/DescriptiveDetail/Collection[CollectionType = "10"]
+  fields:
+    -
+      name: series_name
+      label: Series Name
+      selector: TitleDetail/TitleElement/TitleText
+    -
+      name: series_uuid
+      label: Series UUID
+      selector: CollectionIdentifier/IDValue
+  ids:
+    series_uuid:
+      type: string
+process:
+  name: series_name
+  field_series_uuid: series_uuid
+destination:
+  plugin: entity:taxonomy_term
+  default_bundle: series
+migration_dependencies:
+  required: {}
+  optional: {}

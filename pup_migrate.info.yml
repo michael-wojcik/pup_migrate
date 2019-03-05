@@ -1,0 +1,8 @@
+name: PUP Custom Migration
+description: Custom migration module
+package: Migrations
+type: module
+core: 8.x
+dependencies:
+  - drupal:migrate_plus
+  - drupal:migrate_tools

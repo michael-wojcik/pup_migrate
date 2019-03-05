@@ -1,0 +1,49 @@
+id: book_contributors
+label: Contributors from ONIX feed
+migration_group: onix
+dependencies:
+  enforced:
+    module:
+      - pup_migrate
+source:
+  plugin: contributor_source
+  data_fetcher_plugin: file
+  data_parser_plugin: xml
+  urls: private://PUP_WebOnix3.0_Long_20181121_0935.xml_pp_2018-1121-131424_copy.xml
+  item_selector: /ONIXMessage/Product/DescriptiveDetail/Contributor
+  fields:
+    -
+      name: uuid
+      label: UUID
+      selector: NameIdentifier[NameIDType = "01" and IDTypeName = "BiblioID"]/IDValue
+    -
+      name: name_last
+      label: Last Name
+      selector: KeyNames
+    -
+      name: name_first_middle
+      label: First (and Middle) Name
+      selector: NamesBeforeKey
+    -
+      name: name_inverted
+      label: Inverted Full Name
+      selector: PersonNameInverted
+    -
+      name: corporate_name
+      label: Corporate Name
+      selector: CorporateName
+  ids:
+    uuid:
+      type: integer
+process:
+  name: name_inverted
+  field_contrib_surname: name_last
+  field_contrib_forename: name_first_middle
+  field_contrib_uuid: uuid
+destination:
+  plugin: entity:taxonomy_term
+  default_bundle: contributors
+migration_dependencies:
+  required: {}
+  optional:
+    - contributor_roles
