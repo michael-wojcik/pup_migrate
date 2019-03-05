@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE ONIXMessage SYSTEM "https://www.netread.com/onix/3.0/issue27_dtd/ONIX_BookProduct_3.0_reference.dtd">
+<ONIXMessage release="3.0">
+	<Header>
+		<Sender>
+			<SenderName>Princeton University Press</SenderName>
+			<ContactName>PUP Onix Support (609-258-5121)</ContactName>
+			<EmailAddress>Onix_Support@press.princeton.edu</EmailAddress>
+		</Sender>
+		<SentDateTime>20181121</SentDateTime>
+		<DefaultLanguageOfText>eng</DefaultLanguageOfText>
+	</Header>
+	<Product>
+		<RecordReference>9780691138824</RecordReference>
+		<NotificationType>01</NotificationType>
+		<RecordSourceType>01</RecordSourceType>
+		<RecordSourceName>Princeton University Press</RecordSourceName>
+		<ProductIdentifier>
+			<ProductIDType>01</ProductIDType>
+			<IDTypeName>Virtusales Biblio ID</IDTypeName>
+			<IDValue>31936</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>02</ProductIDType>
+			<IDValue>0691138826</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>03</ProductIDType>
+			<IDValue>9780691138824</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>15</ProductIDType>
+			<IDValue>9780691138824</IDValue>
+		</ProductIdentifier>
+		<Barcode>
+			<BarcodeType>00</BarcodeType>
+		</Barcode>
+		<DescriptiveDetail>
+			<ProductComposition>00</ProductComposition>
+			<ProductForm>BA</ProductForm>
+			<ProductFormDetail>B102</ProductFormDetail>
+			<ProductFormDescription>Print PDF</ProductFormDescription>
+			<Measure>
+				<MeasureType>01</MeasureType>
+				<Measurement>215.9</Measurement>
+				<MeasureUnitCode>mm</MeasureUnitCode>
+			</Measure>
+			<Measure>
+				<MeasureType>02</MeasureType>
+				<Measurement>133.35</Measurement>
+				<MeasureUnitCode>mm</MeasureUnitCode>
+			</Measure>
+			<Collection>
+				<CollectionType>10</CollectionType>
+				<CollectionIdentifier>
+					<CollectionIDType>01</CollectionIDType>
+					<IDTypeName>Virtusales Biblio Group Code</IDTypeName>
+					<IDValue>PFG</IDValue>
+				</CollectionIdentifier>
+				<CollectionSequence>
+					<CollectionSequenceType>04</CollectionSequenceType>
+					<CollectionSequenceNumber>119</CollectionSequenceNumber>
+				</CollectionSequence>
+				<TitleDetail>
+					<TitleType>01</TitleType>
+					<TitleElement>
+						<TitleElementLevel>02</TitleElementLevel>
+						<TitleText>Princeton Field Guides</TitleText>
+					</TitleElement>
+				</TitleDetail>
+			</Collection>
+			<TitleDetail>
+				<TitleType>01</TitleType>
+				<TitleElement>
+					<TitleElementLevel>01</TitleElementLevel>
+					<NoPrefix/>
+					<TitleWithoutPrefix>Birds of Mongolia</TitleWithoutPrefix>
+				</TitleElement>
+			</TitleDetail>
+			<Contributor>
+				<SequenceNumber>1</SequenceNumber>
+				<ContributorRole>A01</ContributorRole>
+				<NameIdentifier>
+					<NameIDType>01</NameIDType>
+					<IDTypeName>BiblioID</IDTypeName>
+					<IDValue>14834</IDValue>
+				</NameIdentifier>
+				<PersonName>Gombobaatar Sundev</PersonName>
+				<PersonNameInverted>Sundev, Gombobaatar</PersonNameInverted>
+				<NamesBeforeKey>Gombobaatar</NamesBeforeKey>
+				<KeyNames>Sundev</KeyNames>
+				<ContributorPlace>
+					<ContributorPlaceRelator>04</ContributorPlaceRelator>
+					<CountryCode>US</CountryCode>
+				</ContributorPlace>
+			</Contributor>
+			<Contributor>
+				<SequenceNumber>1</SequenceNumber>
+				<ContributorRole>A01</ContributorRole>
+				<NameIdentifier>
+					<NameIDType>01</NameIDType>
+					<IDTypeName>BiblioID</IDTypeName>
+					<IDValue>12890</IDValue>
+				</NameIdentifier>
+				<PersonName>Christopher W. Leahy</PersonName>
+				<PersonNameInverted>Leahy, Christopher W.</PersonNameInverted>
+				<NamesBeforeKey>Christopher W.</NamesBeforeKey>
+				<KeyNames>Leahy</KeyNames>
+				<ContributorPlace>
+					<ContributorPlaceRelator>04</ContributorPlaceRelator>
+					<CountryCode>US</CountryCode>
+				</ContributorPlace>
+			</Contributor>
+			<ContributorStatement>Gombobaatar Sundev &amp; Christopher W. Leahy</ContributorStatement>
+			<NoEdition/>
+			<Language>
+				<LanguageRole>01</LanguageRole>
+				<LanguageCode>eng</LanguageCode>
+			</Language>
+			<Language>
+				<LanguageRole>02</LanguageRole>
+				<LanguageCode>eng</LanguageCode>
+			</Language>
+			<Extent>
+				<ExtentType>00</ExtentType>
+				<ExtentValue>224</ExtentValue>
+				<ExtentUnit>03</ExtentUnit>
+			</Extent>
+			<IllustrationsNote>83 color illus.</IllustrationsNote>
+			<AncillaryContent>
+				<AncillaryContentType>14</AncillaryContentType>
+				<Number>500</Number>
+			</AncillaryContent>
+			<Subject>
+				<MainSubject/>
+				<SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
+				<SubjectSchemeVersion>2.1</SubjectSchemeVersion>
+				<SubjectCode>WNCB</SubjectCode>
+				<SubjectHeadingText>Wildlife: birds &amp; birdwatching</SubjectHeadingText>
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
+				<SubjectSchemeVersion>2.1</SubjectSchemeVersion>
+				<SubjectCode>PSVW6</SubjectCode>
+				<SubjectHeadingText>Birds (ornithology)</SubjectHeadingText>
+			</Subject>
+			<Subject>
+				<MainSubject/>
+				<SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+				<SubjectCode>NAT004000</SubjectCode>
+				<SubjectHeadingText>NATURE / Birdwatching Guides</SubjectHeadingText>
+			</Subject>
+			<Audience>
+				<AudienceCodeType>01</AudienceCodeType>
+				<AudienceCodeValue>01</AudienceCodeValue>
+			</Audience>
+		</DescriptiveDetail>
+		<CollateralDetail>
+			<TextContent>
+				<TextType>12</TextType>
+				<ContentAudience>00</ContentAudience>
+				<Text textformat="02">&lt;b&gt;Gombobaatar Sundev&lt;/b&gt; is a professor at the National University of Mongolia and has been president of the Mongolian Ornithological Society for more than twenty years. &lt;b&gt;Christopher W. Leahy&lt;/b&gt; holds the Gerard A. Bertrand Chair of Natural History and Field Ornithology at Massachusetts Audubon. He is the author of &lt;i&gt;A Birdwatcher's Companion to North American Birdlife&lt;/i&gt; (Princeton).</Text>
+			</TextContent>
+			<TextContent>
+				<TextType>03</TextType>
+				<ContentAudience>00</ContentAudience>
+				<Text textformat="02">&lt;p&gt;Mongolia is a huge, landlocked central Asian country encompassing a wide range of habitats, including forests, vast treeless plains, the Altai Mountains, and, of course, the Gobi Desert. With an avian population that reflects this diverse landscape, the country is rapidly becoming a popular destination for birders. The first field guide dedicated to the birds of Mongolia, this beautiful volume provides in-depth details for every species to be found in the region.&lt;/p&gt;&lt;p&gt;Gombobaatar Sundev, Mongolia's most famous ornithologist, and Christopher Leahy follow traditional field-guide design with lavish color plates—83 in total—arranged opposite the text. Detailed maps not to be found anywhere else accompany the species entries.&lt;/p&gt;&lt;p&gt;Birds of Mongolia is an indispensable guide for birders, adventurers, and all those interested in this central Asian nation.&lt;ul&gt;&lt;li&gt;The first dedicated field guide to the birds of Mongolia&lt;br&gt;&lt;/li&gt;&lt;li&gt;Entries include all recorded species for the country&lt;br&gt;&lt;/li&gt;&lt;li&gt;83 lavish color plates&lt;br&gt;&lt;/li&gt;&lt;li&gt;Detailed distribution maps for all species&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</Text>
+			</TextContent>
+		</CollateralDetail>
+		<PublishingDetail>
+			<Imprint>
+				<ImprintIdentifier>
+					<ImprintIDType>01</ImprintIDType>
+					<IDTypeName>Virtusales Biblio ID</IDTypeName>
+					<IDValue>1000</IDValue>
+				</ImprintIdentifier>
+				<ImprintName>Princeton University Press</ImprintName>
+			</Imprint>
+			<Publisher>
+				<PublishingRole>01</PublishingRole>
+				<PublisherIdentifier>
+					<PublisherIDType>01</PublisherIDType>
+					<IDTypeName>Virtusales Biblio ID</IDTypeName>
+					<IDValue>1000</IDValue>
+				</PublisherIdentifier>
+				<PublisherName>Princeton University Press</PublisherName>
+				<Website>
+					<WebsiteRole>02</WebsiteRole>
+					<WebsiteDescription>PUP Legacy Book Link</WebsiteDescription>
+					<WebsiteLink>https://press.princeton.edu/titles/9138.html</WebsiteLink>
+				</Website>
+			</Publisher>
+			<CityOfPublication>Princeton</CityOfPublication>
+			<CountryOfPublication>US</CountryOfPublication>
+			<PublishingStatus>02</PublishingStatus>
+			<PublishingDate>
+				<PublishingDateRole>01</PublishingDateRole>
+				<Date dateformat="00">20191008</Date>
+			</PublishingDate>
+			<CopyrightStatement>
+				<CopyrightYear>2019</CopyrightYear>
+			</CopyrightStatement>
+			<SalesRights>
+				<SalesRightsType>01</SalesRightsType>
+				<Territory>
+					<CountriesIncluded>AD AE AF AI AL AM AO AQ AR AS AW AX AZ BA BF BH BI BJ BL BM BO BQ BR BT BV BY CA CC CD CF CG CH CI CK CL CN CO CR CU CV CW CX DJ DO DZ EC EG EH ER ET FK FM FO GA GE GF GG GI GL GM GN GP GQ GS GT GU GW HK HM HN HT ID IL IM IO IQ IR IS JE JO JP KG KH KM KP KR KW KY KZ LA LB LI LR LY MA MC MD ME MF MG MH MK ML MM MN MO MP MQ MR MS MV MX NC NE NF NI NO NP NU OM PA PE PF PH PM PN PR PS PW PY QA RE RS RU SA SD SH SJ SM SN SO SR SS ST SV SX SY TC TD TF TG TH TJ TK TL TM TN TR TW UA UM US UY UZ VA VE VG VI VN WF YE YT ZW</CountriesIncluded>
+				</Territory>
+			</SalesRights>
+			<SalesRights>
+				<SalesRightsType>03</SalesRightsType>
+				<Territory>
+					<CountriesIncluded>AG AT AU BB BD BE BG BN BS BW BZ CM CY CZ DE DK DM EE ES FI FJ FR GB GD GH GR GY HR HU IE IN IT JM KE KI KN LC LK LS LT LU LV MT MU MW MY MZ NA NG NL NR NZ PG PK PL PT RO RW SB SC SE SG SI SK SL SZ TO TT TV TZ UG VC VU WS ZA ZM</CountriesIncluded>
+				</Territory>
+			</SalesRights>
+			<ROWSalesRightsType>00</ROWSalesRightsType>
+		</PublishingDetail>
+		<RelatedMaterial>
+			<RelatedWork>
+				<WorkRelationCode>01</WorkRelationCode>
+				<WorkIdentifier>
+					<WorkIDType>01</WorkIDType>
+					<IDTypeName>Biblio Work Ref</IDTypeName>
+					<IDValue>9138</IDValue>
+				</WorkIdentifier>
+			</RelatedWork>
+			<RelatedProduct>
+				<ProductRelationCode>27</ProductRelationCode>
+				<ProductIdentifier>
+					<ProductIDType>15</ProductIDType>
+					<IDValue>9781400834471</IDValue>
+				</ProductIdentifier>
+			</RelatedProduct>
+		</RelatedMaterial>
+		<ProductSupply>
+			<Market>
+				<Territory>
+					<CountriesIncluded>US</CountriesIncluded>
+				</Territory>
+			</Market>
+			<SupplyDetail>
+				<Supplier>
+					<SupplierRole>00</SupplierRole>
+					<SupplierIdentifier>
+						<SupplierIDType>07</SupplierIDType>
+						<IDValue>631760X</IDValue>
+					</SupplierIdentifier>
+					<SupplierName>Two Rivers Distribution</SupplierName>
+					<TelephoneNumber>800-343-4499</TelephoneNumber>
+					<FaxNumber>800-351-5073</FaxNumber>
+					<EmailAddress>IPSJacksonOrders@ingramcontent.com</EmailAddress>
+				</Supplier>
+				<ReturnsConditions>
+					<ReturnsCodeType>02</ReturnsCodeType>
+					<ReturnsCode>Y</ReturnsCode>
+				</ReturnsConditions>
+				<ProductAvailability>10</ProductAvailability>
+				<Price>
+					<PriceType>01</PriceType>
+					<DiscountCoded>
+						<DiscountCodeType>02</DiscountCodeType>
+						<DiscountCodeTypeName>IPS</DiscountCodeTypeName>
+						<DiscountCode>TP</DiscountCode>
+					</DiscountCoded>
+					<PriceAmount>35.00</PriceAmount>
+					<CurrencyCode>USD</CurrencyCode>
+					<Territory>
+						<CountriesIncluded>US</CountriesIncluded>
+					</Territory>
+				</Price>
+			</SupplyDetail>
+		</ProductSupply>
+		<ProductSupply>
+			<Market>
+				<Territory>
+					<CountriesIncluded>CA GB AT BE CY DE EE ES FI FR GR IE IT LT LU LV MT NL PT SI SK</CountriesIncluded>
+				</Territory>
+			</Market>
+			<SupplyDetail>
+				<Supplier>
+					<SupplierRole>00</SupplierRole>
+					<SupplierIdentifier>
+						<SupplierIDType>07</SupplierIDType>
+						<IDValue>631760X</IDValue>
+					</SupplierIdentifier>
+					<SupplierName>Two Rivers Distribution</SupplierName>
+					<TelephoneNumber>800-343-4499</TelephoneNumber>
+					<FaxNumber>800-351-5073</FaxNumber>
+					<EmailAddress>IPSJacksonOrders@ingramcontent.com</EmailAddress>
+				</Supplier>
+				<ReturnsConditions>
+					<ReturnsCodeType>02</ReturnsCodeType>
+					<ReturnsCode>Y</ReturnsCode>
+				</ReturnsConditions>
+				<ProductAvailability>10</ProductAvailability>
+				<SupplyDate>
+					<SupplyDateRole>02</SupplyDateRole>
+					<Date dateformat="00">20191008</Date>
+				</SupplyDate>
+				<Price>
+					<PriceType>01</PriceType>
+					<DiscountCoded>
+						<DiscountCodeType>02</DiscountCodeType>
+						<DiscountCodeTypeName>IPS</DiscountCodeTypeName>
+						<DiscountCode>TP</DiscountCode>
+					</DiscountCoded>
+					<PriceAmount>43.99</PriceAmount>
+					<CurrencyCode>CAD</CurrencyCode>
+					<Territory>
+						<CountriesIncluded>CA</CountriesIncluded>
+					</Territory>
+					<PriceDate>
+						<PriceDateRole>14</PriceDateRole>
+						<Date dateformat="00">20150408</Date>
+					</PriceDate>
+				</Price>
+				<Price>
+					<PriceType>01</PriceType>
+					<DiscountCoded>
+						<DiscountCodeType>02</DiscountCodeType>
+						<DiscountCodeTypeName>IPS</DiscountCodeTypeName>
+						<DiscountCode>TP</DiscountCode>
+					</DiscountCoded>
+					<PriceAmount>27.00</PriceAmount>
+					<CurrencyCode>GBP</CurrencyCode>
+					<Territory>
+						<CountriesIncluded>GB</CountriesIncluded>
+					</Territory>
+					<PriceDate>
+						<PriceDateRole>14</PriceDateRole>
+						<Date dateformat="00">20180427</Date>
+					</PriceDate>
+				</Price>
+				<Price>
+					<PriceType>01</PriceType>
+					<DiscountCoded>
+						<DiscountCodeType>02</DiscountCodeType>
+						<DiscountCodeTypeName>IPS</DiscountCodeTypeName>
+						<DiscountCode>TP</DiscountCode>
+					</DiscountCoded>
+					<PriceAmount>31.99</PriceAmount>
+					<CurrencyCode>EUR</CurrencyCode>
+					<Territory>
+						<CountriesIncluded>AT BE CY DE EE ES FI FR GR IE IT LT LU LV MT NL PT SI SK</CountriesIncluded>
+					</Territory>
+					<PriceDate>
+						<PriceDateRole>14</PriceDateRole>
+						<Date dateformat="00">20151022</Date>
+					</PriceDate>
+				</Price>
+			</SupplyDetail>
+		</ProductSupply>
+	</Product>
+	<Product>
+		<RecordReference>9780691179490</RecordReference>
+		<NotificationType>01</NotificationType>
+		<RecordSourceType>01</RecordSourceType>
+		<RecordSourceName>Princeton University Press</RecordSourceName>
+		<ProductIdentifier>
+			<ProductIDType>01</ProductIDType>
+			<IDTypeName>Virtusales Biblio ID</IDTypeName>
+			<IDValue>12052</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>02</ProductIDType>
+			<IDValue>0691179492</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>03</ProductIDType>
+			<IDValue>9780691179490</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>15</ProductIDType>
+			<IDValue>9780691179490</IDValue>
+		</ProductIdentifier>
+		<Barcode>
+			<BarcodeType>00</BarcodeType>
+		</Barcode>
+		<DescriptiveDetail>
+			<ProductComposition>00</ProductComposition>
+			<ProductForm>BB</ProductForm>
+			<ProductFormDetail>B315</ProductFormDetail>
+			<ProductFormDescription>Print PDF</ProductFormDescription>
+			<Measure>
+				<MeasureType>01</MeasureType>
+				<Measurement>215.9</Measurement>
+				<MeasureUnitCode>mm</MeasureUnitCode>
+			</Measure>
+			<Measure>
+				<MeasureType>02</MeasureType>
+				<Measurement>139.7</Measurement>
+				<MeasureUnitCode>mm</MeasureUnitCode>
+			</Measure>
+			<NoCollection/>
+			<TitleDetail>
+				<TitleType>01</TitleType>
+				<TitleElement>
+					<TitleElementLevel>01</TitleElementLevel>
+					<NoPrefix/>
+					<TitleWithoutPrefix>Digital Cash</TitleWithoutPrefix>
+					<Subtitle>The Unknown History of the Anarchists, Utopians, and Technologists Who Created Cryptocurrency</Subtitle>
+				</TitleElement>
+			</TitleDetail>
+			<Contributor>
+				<SequenceNumber>1</SequenceNumber>
+				<ContributorRole>A01</ContributorRole>
+				<NameIdentifier>
+					<NameIDType>01</NameIDType>
+					<IDTypeName>BiblioID</IDTypeName>
+					<IDValue>14307</IDValue>
+				</NameIdentifier>
+				<PersonName>Finn Brunton</PersonName>
+				<PersonNameInverted>Brunton, Finn</PersonNameInverted>
+				<NamesBeforeKey>Finn</NamesBeforeKey>
+				<KeyNames>Brunton</KeyNames>
+				<ContributorPlace>
+					<ContributorPlaceRelator>04</ContributorPlaceRelator>
+					<CountryCode>US</CountryCode>
+				</ContributorPlace>
+			</Contributor>
+			<ContributorStatement>Finn Brunton</ContributorStatement>
+			<NoEdition/>
+			<Language>
+				<LanguageRole>01</LanguageRole>
+				<LanguageCode>eng</LanguageCode>
+			</Language>
+			<Language>
+				<LanguageRole>02</LanguageRole>
+				<LanguageCode>eng</LanguageCode>
+			</Language>
+			<Extent>
+				<ExtentType>00</ExtentType>
+				<ExtentValue>264</ExtentValue>
+				<ExtentUnit>03</ExtentUnit>
+			</Extent>
+			<Extent>
+				<ExtentType>02</ExtentType>
+				<ExtentValue>60360</ExtentValue>
+				<ExtentUnit>02</ExtentUnit>
+			</Extent>
+			<Subject>
+				<MainSubject/>
+				<SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
+				<SubjectSchemeVersion>2.1</SubjectSchemeVersion>
+				<SubjectCode>KCBM</SubjectCode>
+				<SubjectHeadingText>Monetary economics</SubjectHeadingText>
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
+				<SubjectSchemeVersion>2.1</SubjectSchemeVersion>
+				<SubjectCode>JFD</SubjectCode>
+				<SubjectHeadingText>Media studies</SubjectHeadingText>
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
+				<SubjectSchemeVersion>2.1</SubjectSchemeVersion>
+				<SubjectCode>HBTB</SubjectCode>
+				<SubjectHeadingText>Social &amp; cultural history</SubjectHeadingText>
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
+				<SubjectSchemeVersion>2.1</SubjectSchemeVersion>
+				<SubjectCode>JFCA</SubjectCode>
+				<SubjectHeadingText>Popular culture</SubjectHeadingText>
+			</Subject>
+			<Subject>
+				<MainSubject/>
+				<SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+				<SubjectCode>BUS045000</SubjectCode>
+				<SubjectHeadingText>BUSINESS &amp; ECONOMICS / Money &amp; Monetary Policy</SubjectHeadingText>
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+				<SubjectCode>SOC052000</SubjectCode>
+				<SubjectHeadingText>SOCIAL SCIENCE / Media Studies</SubjectHeadingText>
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+				<SubjectCode>HIS054000</SubjectCode>
+				<SubjectHeadingText>HISTORY / Social History</SubjectHeadingText>
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+				<SubjectCode>SOC022000</SubjectCode>
+				<SubjectHeadingText>SOCIAL SCIENCE / Popular Culture</SubjectHeadingText>
+			</Subject>
+			<Audience>
+				<AudienceCodeType>01</AudienceCodeType>
+				<AudienceCodeValue>06</AudienceCodeValue>
+			</Audience>
+			<Audience>
+				<AudienceCodeType>01</AudienceCodeType>
+				<AudienceCodeValue>05</AudienceCodeValue>
+			</Audience>
+		</DescriptiveDetail>
+		<CollateralDetail>
+			<TextContent>
+				<TextType>12</TextType>
+				<ContentAudience>00</ContentAudience>
+				<Text textformat="02">&lt;b&gt;Finn Brunton&lt;/b&gt; is assistant professor in the Department of Media, Culture, and Communication at New York University. He is the author of &lt;i&gt;Spam: A Shadow History of the Internet&lt;/i&gt; and the coauthor of &lt;i&gt;Communication&lt;/i&gt; and &lt;i&gt;Obfuscation: A User’s Guide for Privacy and Protest&lt;/i&gt;. He has written for the &lt;i&gt;Guardian&lt;/i&gt;, &lt;i&gt;Artforum&lt;/i&gt;, and &lt;i&gt;Radical Philosophy&lt;/i&gt;, among many other publications.</Text>
+			</TextContent>
+			<TextContent>
+				<TextType>03</TextType>
+				<ContentAudience>00</ContentAudience>
+				<Text textformat="02">&lt;p&gt;&lt;b&gt;The fascinating untold story of digital cash and its creators—from experiments in the 1970s to the mania over Bitcoin and other cryptocurrencies&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Bitcoin may appear to be a revolutionary form of digital cash without precedent or prehistory. In fact, it is only the best-known recent experiment in a long line of similar efforts going back to the 1970s. But the story behind cryptocurrencies like Bitcoin and its blockchain technology has largely been untold—until now. In &lt;i&gt;Digital Cash&lt;/i&gt;, Finn Brunton reveals how technological utopians and political radicals created experimental money to bring about their visions of the future: protecting privacy or bringing down governments, preparing for apocalypse or launching a civilization of innovation and abundance that would make its creators immortal.&lt;/p&gt;&lt;p&gt;The incredible story of the pioneers of cryptocurrency takes us from autonomous zones on the high seas to the world’s most valuable dump, from bank runs to idea coupons, from time travelers in a San Francisco bar to the pattern securing every twenty-dollar bill, and from marketplaces for dangerous secrets to a tank of frozen heads awaiting revival in the far future. Along the way, &lt;i&gt;Digital Cash&lt;/i&gt; explores the hard questions and challenges that these innovators faced: How do we learn to trust and use different kinds of money? What makes digital objects valuable? How does currency prove itself as real to us? What would it take to make a digital equivalent to cash, something that could be exchanged but not copied, created but not forged, and which reveals nothing about its users?&lt;/p&gt;&lt;p&gt;Filled with marvelous characters, stories, and ideas, &lt;i&gt;Digital Cash&lt;/i&gt; is an engaging and accessible account of the strange origins and remarkable technologies behind today’s cryptocurrency explosion.&lt;/p&gt;</Text>
+			</TextContent>
+			<TextContent>
+				<TextType>10</TextType>
+				<ContentAudience>00</ContentAudience>
+				<Text textformat="02">This book traces the history of digital money from the initial idea for criyptocurrencies in the 1970s to Bitcoin and the current hysteria over digital cash.</Text>
+			</TextContent>
+			<TextContent>
+				<TextType>09</TextType>
+				<ContentAudience>00</ContentAudience>
+				<Text textformat="02">“A fascinating and important book that addresses big questions about cryptocurrency: What is money? How can virtual things have lasting value? And what does the explosion of cryptocurrency mean for the global economy? I can’t think of another book on the subject that accomplishes so much in such a concise and readable way.”&lt;b&gt;—Nathan Ensmenger, author of &lt;i&gt;The Computer Boys Take Over&lt;/i&gt;&lt;/b&gt;</Text>
+			</TextContent>
+			<TextContent>
+				<TextType>09</TextType>
+				<ContentAudience>00</ContentAudience>
+				<Text textformat="02">“A very important book.”&lt;b&gt;—Lana Swartz, coeditor of &lt;i&gt;Paid: Tales of Dongles, Checks, and Other Money Stuff&lt;/i&gt;&lt;/b&gt;</Text>
+			</TextContent>
+		</CollateralDetail>
+		<PublishingDetail>
+			<Imprint>
+				<ImprintIdentifier>
+					<ImprintIDType>01</ImprintIDType>
+					<IDTypeName>Virtusales Biblio ID</IDTypeName>
+					<IDValue>1000</IDValue>
+				</ImprintIdentifier>
+				<ImprintName>Princeton University Press</ImprintName>
+			</Imprint>
+			<Publisher>
+				<PublishingRole>01</PublishingRole>
+				<PublisherIdentifier>
+					<PublisherIDType>01</PublisherIDType>
+					<IDTypeName>Virtusales Biblio ID</IDTypeName>
+					<IDValue>1000</IDValue>
+				</PublisherIdentifier>
+				<PublisherName>Princeton University Press</PublisherName>
+				<Website>
+					<WebsiteRole>02</WebsiteRole>
+					<WebsiteDescription>PUP Legacy Book Link</WebsiteDescription>
+					<WebsiteLink>https://press.princeton.edu/titles/13537.html</WebsiteLink>
+				</Website>
+			</Publisher>
+			<CityOfPublication>Princeton</CityOfPublication>
+			<CountryOfPublication>US</CountryOfPublication>
+			<PublishingStatus>02</PublishingStatus>
+			<PublishingDate>
+				<PublishingDateRole>01</PublishingDateRole>
+				<Date dateformat="00">20190625</Date>
+			</PublishingDate>
+			<CopyrightStatement>
+				<CopyrightYear>2019</CopyrightYear>
+			</CopyrightStatement>
+			<SalesRights>
+				<SalesRightsType>01</SalesRightsType>
+				<Territory>
+					<CountriesIncluded>AD AE AF AG AI AL AM AO AQ AR AS AT AU AW AX AZ BA BB BD BE BF BG BH BI BJ BL BM BN BO BQ BR BS BT BV BW BY BZ CA CC CD CF CG CH CI CK CL CM CN CO CR CU CV CW CX CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT GU GW GY HK HM HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MF MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR SS ST SV SX SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UM US UY UZ VA VC VE VG VI VN VU WF WS YE YT ZA ZM ZW</CountriesIncluded>
+				</Territory>
+			</SalesRights>
+			<ROWSalesRightsType>00</ROWSalesRightsType>
+		</PublishingDetail>
+		<RelatedMaterial>
+			<RelatedWork>
+				<WorkRelationCode>01</WorkRelationCode>
+				<WorkIdentifier>
+					<WorkIDType>01</WorkIDType>
+					<IDTypeName>Biblio Work Ref</IDTypeName>
+					<IDValue>13537</IDValue>
+				</WorkIdentifier>
+			</RelatedWork>
+			<RelatedProduct>
+				<ProductRelationCode>27</ProductRelationCode>
+				<ProductIdentifier>
+					<ProductIDType>15</ProductIDType>
+					<IDValue>9780691185668</IDValue>
+				</ProductIdentifier>
+			</RelatedProduct>
+			<RelatedProduct>
+				<ProductRelationCode>06</ProductRelationCode>
+				<ProductIdentifier>
+					<ProductIDType>15</ProductIDType>
+					<IDValue>9780691193502</IDValue>
+				</ProductIdentifier>
+			</RelatedProduct>
+		</RelatedMaterial>
+		<ProductSupply>
+			<Market>
+				<Territory>
+					<CountriesIncluded>US</CountriesIncluded>
+				</Territory>
+			</Market>
+			<SupplyDetail>
+				<Supplier>
+					<SupplierRole>00</SupplierRole>
+					<SupplierIdentifier>
+						<SupplierIDType>07</SupplierIDType>
+						<IDValue>631760X</IDValue>
+					</SupplierIdentifier>
+					<SupplierName>Two Rivers Distribution</SupplierName>
+					<TelephoneNumber>800-343-4499</TelephoneNumber>
+					<FaxNumber>800-351-5073</FaxNumber>
+					<EmailAddress>IPSJacksonOrders@ingramcontent.com</EmailAddress>
+				</Supplier>
+				<ProductAvailability>10</ProductAvailability>
+				<Price>
+					<PriceType>01</PriceType>
+					<DiscountCoded>
+						<DiscountCodeType>02</DiscountCodeType>
+						<DiscountCodeTypeName>IPS</DiscountCodeTypeName>
+						<DiscountCode>TC</DiscountCode>
+					</DiscountCoded>
+					<PriceAmount>26.95</PriceAmount>
+					<CurrencyCode>USD</CurrencyCode>
+					<Territory>
+						<CountriesIncluded>US</CountriesIncluded>
+					</Territory>
+				</Price>
+			</SupplyDetail>
+		</ProductSupply>
+		<ProductSupply>
+			<Market>
+				<Territory>
+					<CountriesIncluded>CA GB AT BE CY DE EE ES FI FR GR IE IT LT LU LV MT NL PT SI SK</CountriesIncluded>
+				</Territory>
+			</Market>
+			<SupplyDetail>
+				<Supplier>
+					<SupplierRole>00</SupplierRole>
+					<SupplierIdentifier>
+						<SupplierIDType>07</SupplierIDType>
+						<IDValue>631760X</IDValue>
+					</SupplierIdentifier>
+					<SupplierName>Two Rivers Distribution</SupplierName>
+					<TelephoneNumber>800-343-4499</TelephoneNumber>
+					<FaxNumber>800-351-5073</FaxNumber>
+					<EmailAddress>IPSJacksonOrders@ingramcontent.com</EmailAddress>
+				</Supplier>
+				<ProductAvailability>10</ProductAvailability>
+				<SupplyDate>
+					<SupplyDateRole>02</SupplyDateRole>
+					<Date dateformat="00">20190625</Date>
+				</SupplyDate>
+				<Price>
+					<PriceType>01</PriceType>
+					<DiscountCoded>
+						<DiscountCodeType>02</DiscountCodeType>
+						<DiscountCodeTypeName>IPS</DiscountCodeTypeName>
+						<DiscountCode>TC</DiscountCode>
+					</DiscountCoded>
+					<PriceAmount>33.99</PriceAmount>
+					<CurrencyCode>CAD</CurrencyCode>
+					<Territory>
+						<CountriesIncluded>CA</CountriesIncluded>
+					</Territory>
+					<PriceDate>
+						<PriceDateRole>14</PriceDateRole>
+						<Date dateformat="00">20170515</Date>
+					</PriceDate>
+				</Price>
+				<Price>
+					<PriceType>01</PriceType>
+					<DiscountCoded>
+						<DiscountCodeType>02</DiscountCodeType>
+						<DiscountCodeTypeName>IPS</DiscountCodeTypeName>
+						<DiscountCode>TC</DiscountCode>
+					</DiscountCoded>
+					<PriceAmount>21.00</PriceAmount>
+					<CurrencyCode>GBP</CurrencyCode>
+					<Territory>
+						<CountriesIncluded>GB</CountriesIncluded>
+					</Territory>
+					<PriceDate>
+						<PriceDateRole>14</PriceDateRole>
+						<Date dateformat="00">20180427</Date>
+					</PriceDate>
+				</Price>
+				<Price>
+					<PriceType>01</PriceType>
+					<DiscountCoded>
+						<DiscountCodeType>02</DiscountCodeType>
+						<DiscountCodeTypeName>IPS</DiscountCodeTypeName>
+						<DiscountCode>TC</DiscountCode>
+					</DiscountCoded>
+					<PriceAmount>24.99</PriceAmount>
+					<CurrencyCode>EUR</CurrencyCode>
+					<Territory>
+						<CountriesIncluded>AT BE CY DE EE ES FI FR GR IE IT LT LU LV MT NL PT SI SK</CountriesIncluded>
+					</Territory>
+					<PriceDate>
+						<PriceDateRole>14</PriceDateRole>
+						<Date dateformat="00">20170515</Date>
+					</PriceDate>
+				</Price>
+			</SupplyDetail>
+		</ProductSupply>
+	</Product>
+	<Product>
+		<RecordReference>9780691058863</RecordReference>
+		<NotificationType>01</NotificationType>
+		<RecordSourceType>01</RecordSourceType>
+		<RecordSourceName>Princeton University Press</RecordSourceName>
+		<ProductIdentifier>
+			<ProductIDType>01</ProductIDType>
+			<IDTypeName>Virtusales Biblio ID</IDTypeName>
+			<IDValue>11954</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>02</ProductIDType>
+			<IDValue>0691058865</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>03</ProductIDType>
+			<IDValue>9780691058863</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>15</ProductIDType>
+			<IDValue>9780691058863</IDValue>
+		</ProductIdentifier>
+		<Barcode>
+			<BarcodeType>00</BarcodeType>
+		</Barcode>
+		<DescriptiveDetail>
+			<ProductComposition>00</ProductComposition>
+			<ProductForm>BB</ProductForm>
+			<ProductFormDetail>B315</ProductFormDetail>
+			<ProductFormDescription>Print PDF</ProductFormDescription>
+			<Measure>
+				<MeasureType>01</MeasureType>
+				<Measurement>234.95</Measurement>
+				<MeasureUnitCode>mm</MeasureUnitCode>
+			</Measure>
+			<Measure>
+				<MeasureType>02</MeasureType>
+				<Measurement>155.448</Measurement>
+				<MeasureUnitCode>mm</MeasureUnitCode>
+			</Measure>
+			<NoCollection/>
+			<TitleDetail>
+				<TitleType>01</TitleType>
+				<TitleElement>
+					<TitleElementLevel>01</TitleElementLevel>
+					<NoPrefix/>
+					<TitleWithoutPrefix>Beyond Global Warming</TitleWithoutPrefix>
+					<Subtitle>How Numerical Models Revealed the Secrets of Climate Change</Subtitle>
+				</TitleElement>
+			</TitleDetail>
+			<Contributor>
+				<SequenceNumber>1</SequenceNumber>
+				<ContributorRole>A01</ContributorRole>
+				<NameIdentifier>
+					<NameIDType>01</NameIDType>
+					<IDTypeName>BiblioID</IDTypeName>
+					<IDValue>20977</IDValue>
+				</NameIdentifier>
+				<PersonName>Syukuro Manabe</PersonName>
+				<PersonNameInverted>Manabe, Syukuro</PersonNameInverted>
+				<NamesBeforeKey>Syukuro</NamesBeforeKey>
+				<KeyNames>Manabe</KeyNames>
+				<ContributorPlace>
+					<ContributorPlaceRelator>04</ContributorPlaceRelator>
+					<CountryCode>JP</CountryCode>
+				</ContributorPlace>
+			</Contributor>
+			<Contributor>
+				<SequenceNumber>1</SequenceNumber>
+				<ContributorRole>A01</ContributorRole>
+				<NameIdentifier>
+					<NameIDType>01</NameIDType>
+					<IDTypeName>BiblioID</IDTypeName>
+					<IDValue>11942</IDValue>
+				</NameIdentifier>
+				<PersonName>Anthony J. Broccoli</PersonName>
+				<PersonNameInverted>Broccoli, Anthony J.</PersonNameInverted>
+				<NamesBeforeKey>Anthony J.</NamesBeforeKey>
+				<KeyNames>Broccoli</KeyNames>
+				<ContributorPlace>
+					<ContributorPlaceRelator>04</ContributorPlaceRelator>
+					<CountryCode>US</CountryCode>
+				</ContributorPlace>
+			</Contributor>
+			<ContributorStatement>Syukuro Manabe and Anthony J. Broccoli</ContributorStatement>
+			<NoEdition/>
+			<Language>
+				<LanguageRole>01</LanguageRole>
+				<LanguageCode>eng</LanguageCode>
+			</Language>
+			<Language>
+				<LanguageRole>02</LanguageRole>
+				<LanguageCode>eng</LanguageCode>
+			</Language>
+			<Extent>
+				<ExtentType>00</ExtentType>
+				<ExtentValue>328</ExtentValue>
+				<ExtentUnit>03</ExtentUnit>
+			</Extent>
+			<Extent>
+				<ExtentType>02</ExtentType>
+				<ExtentValue>58000</ExtentValue>
+				<ExtentUnit>02</ExtentUnit>
+			</Extent>
+			<IllustrationsNote>81 b/w illus.</IllustrationsNote>
+			<Subject>
+				<MainSubject/>
+				<SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
+				<SubjectSchemeVersion>2.1</SubjectSchemeVersion>
+				<SubjectCode>TQ</SubjectCode>
+				<SubjectHeadingText>Environmental science, engineering &amp; technology</SubjectHeadingText>
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
+				<SubjectSchemeVersion>2.1</SubjectSchemeVersion>
+				<SubjectCode>PHVG</SubjectCode>
+				<SubjectHeadingText>Geophysics</SubjectHeadingText>
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
+				<SubjectSchemeVersion>2.1</SubjectSchemeVersion>
+				<SubjectCode>RBP</SubjectCode>
+				<SubjectHeadingText>Meteorology &amp; climatology</SubjectHeadingText>
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
+				<SubjectSchemeVersion>2.1</SubjectSchemeVersion>
+				<SubjectCode>RNPG</SubjectCode>
+				<SubjectHeadingText>Climate change</SubjectHeadingText>
+			</Subject>
+			<Subject>
+				<MainSubject/>
+				<SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+				<SubjectCode>SCI092000</SubjectCode>
+				<SubjectHeadingText>SCIENCE / Global Warming &amp; Climate Change</SubjectHeadingText>
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+				<SubjectCode>SCI026000</SubjectCode>
+				<SubjectHeadingText>SCIENCE / Environmental Science (see also Chemistry / Environmental)</SubjectHeadingText>
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+				<SubjectCode>SCI032000</SubjectCode>
+				<SubjectHeadingText>SCIENCE / Physics / Geophysics</SubjectHeadingText>
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+				<SubjectCode>SCI042000</SubjectCode>
+				<SubjectHeadingText>SCIENCE / Earth Sciences / Meteorology &amp; Climatology</SubjectHeadingText>
+			</Subject>
+			<Audience>
+				<AudienceCodeType>01</AudienceCodeType>
+				<AudienceCodeValue>06</AudienceCodeValue>
+			</Audience>
+			<Audience>
+				<AudienceCodeType>01</AudienceCodeType>
+				<AudienceCodeValue>05</AudienceCodeValue>
+			</Audience>
+		</DescriptiveDetail>
+		<CollateralDetail>
+			<TextContent>
+				<TextType>12</TextType>
+				<ContentAudience>00</ContentAudience>
+				<Text textformat="02">&lt;b&gt;Syukuro Manabe&lt;/b&gt; is senior meteorologist in the Program in Atmospheric and Oceanic Sciences at Princeton University and a pioneer in the use of computers to simulate global climate change. &lt;b&gt;Anthony J. Broccoli&lt;/b&gt; is professor of environmental sciences at Rutgers University.</Text>
+			</TextContent>
+			<TextContent>
+				<TextType>03</TextType>
+				<ContentAudience>00</ContentAudience>
+				<Text textformat="02">&lt;p&gt;&lt;b&gt;A definitive account of how we have come to understand the fundamental processes behind global warming&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Syukuro Manabe is perhaps the leading pioneer of modern climate modeling. &lt;i&gt;Beyond Global Warming&lt;/i&gt; is his compelling firsthand account of how the scientific community came to understand the human causes of climate change, and how numerical models using the world’s most powerful computers have been instrumental to these vital discoveries.&lt;/p&gt;&lt;p&gt;Joined here by atmospheric scientist Anthony Broccoli, Manabe shows how climate models have been used as virtual laboratories for examining the complex planetary interactions of atmosphere, ocean, and land. Manabe and Broccoli use these studies as the basis for a broader discussion of human-induced global warming—and what the future may hold for a warming planet. They tell the stories of early trailblazers such as Svante Arrhenius, the legendary Swedish scientist who created the first climate model of Earth more than a century ago, and provide rare insights into Manabe’s own groundbreaking work over the past five decades. Expertly walking readers through key breakthroughs, they explain why increasing atmospheric carbon dioxide has caused temperatures to rise in the troposphere yet fall in the stratosphere, why the warming of the planet’s surface differs by hemisphere, why drought is becoming more frequent in arid regions despite the global increase in precipitation, and much more.&lt;/p&gt;&lt;p&gt;Authoritative and illuminating, &lt;i&gt;Beyond Global Warming&lt;/i&gt; is an invaluable insider’s look at some of today’s most cutting-edge Earth science, and a rare window into a brilliant scientific mind.&lt;/p&gt;</Text>
+			</TextContent>
+			<TextContent>
+				<TextType>09</TextType>
+				<ContentAudience>00</ContentAudience>
+				<Text textformat="02">“A valuable and well-written history of climate modeling.”&lt;b&gt;—Dennis L. Hartmann, University of Washington&lt;/b&gt;</Text>
+			</TextContent>
+			<TextContent>
+				<TextType>09</TextType>
+				<ContentAudience>00</ContentAudience>
+				<Text textformat="02">“Manabe is a god in the field of climate modeling and Broccoli is a demigod, and we are lucky to have a book on the topic by them.”&lt;b&gt;—Matthew Huber, Purdue University&lt;/b&gt;</Text>
+			</TextContent>
+			<TextContent>
+				<TextType>09</TextType>
+				<ContentAudience>00</ContentAudience>
+				<Text textformat="02">“Syukuro Manabe has been the driving force in almost every key development regarding our understanding of the problem of carbon dioxide and climate, from ice ages to anthropogenic global warming. &lt;i&gt;Beyond Global Warming&lt;/i&gt; is an important book by one of the towering figures of the field.”&lt;b&gt;—Raymond T. Pierrehumbert, author of &lt;i&gt;Principles of Planetary Climate&lt;/i&gt;&lt;/b&gt;</Text>
+			</TextContent>
+		</CollateralDetail>
+		<PublishingDetail>
+			<Imprint>
+				<ImprintIdentifier>
+					<ImprintIDType>01</ImprintIDType>
+					<IDTypeName>Virtusales Biblio ID</IDTypeName>
+					<IDValue>1000</IDValue>
+				</ImprintIdentifier>
+				<ImprintName>Princeton University Press</ImprintName>
+			</Imprint>
+			<Publisher>
+				<PublishingRole>01</PublishingRole>
+				<PublisherIdentifier>
+					<PublisherIDType>01</PublisherIDType>
+					<IDTypeName>Virtusales Biblio ID</IDTypeName>
+					<IDValue>1000</IDValue>
+				</PublisherIdentifier>
+				<PublisherName>Princeton University Press</PublisherName>
+				<Website>
+					<WebsiteRole>02</WebsiteRole>
+					<WebsiteDescription>PUP Legacy Book Link</WebsiteDescription>
+					<WebsiteLink>https://press.princeton.edu/titles/13313.html</WebsiteLink>
+				</Website>
+			</Publisher>
+			<CityOfPublication>Princeton</CityOfPublication>
+			<CountryOfPublication>US</CountryOfPublication>
+			<PublishingStatus>02</PublishingStatus>
+			<PublishingDate>
+				<PublishingDateRole>01</PublishingDateRole>
+				<Date dateformat="00">20190618</Date>
+			</PublishingDate>
+			<CopyrightStatement>
+				<CopyrightYear>2019</CopyrightYear>
+			</CopyrightStatement>
+			<SalesRights>
+				<SalesRightsType>01</SalesRightsType>
+				<Territory>
+					<CountriesIncluded>AD AE AF AG AI AL AM AO AQ AR AS AT AU AW AX AZ BA BB BD BE BF BG BH BI BJ BL BM BN BO BQ BR BS BT BV BW BY BZ CA CC CD CF CG CH CI CK CL CM CN CO CR CU CV CW CX CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT GU GW GY HK HM HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MF MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR SS ST SV SX SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UM US UY UZ VA VC VE VG VI VN VU WF WS YE YT ZA ZM ZW</CountriesIncluded>
+				</Territory>
+			</SalesRights>
+			<ROWSalesRightsType>00</ROWSalesRightsType>
+		</PublishingDetail>
+		<RelatedMaterial>
+			<RelatedWork>
+				<WorkRelationCode>01</WorkRelationCode>
+				<WorkIdentifier>
+					<WorkIDType>01</WorkIDType>
+					<IDTypeName>Biblio Work Ref</IDTypeName>
+					<IDValue>13313</IDValue>
+				</WorkIdentifier>
+			</RelatedWork>
+			<RelatedProduct>
+				<ProductRelationCode>27</ProductRelationCode>
+				<ProductIdentifier>
+					<ProductIDType>15</ProductIDType>
+					<IDValue>9780691185163</IDValue>
+				</ProductIdentifier>
+			</RelatedProduct>
+			<RelatedProduct>
+				<ProductRelationCode>06</ProductRelationCode>
+				<ProductIdentifier>
+					<ProductIDType>15</ProductIDType>
+					<IDValue>9780691183718</IDValue>
+				</ProductIdentifier>
+			</RelatedProduct>
+		</RelatedMaterial>
+		<ProductSupply>
+			<Market>
+				<Territory>
+					<CountriesIncluded>US</CountriesIncluded>
+				</Territory>
+			</Market>
+			<SupplyDetail>
+				<Supplier>
+					<SupplierRole>00</SupplierRole>
+					<SupplierIdentifier>
+						<SupplierIDType>07</SupplierIDType>
+						<IDValue>631760X</IDValue>
+					</SupplierIdentifier>
+					<SupplierName>Two Rivers Distribution</SupplierName>
+					<TelephoneNumber>800-343-4499</TelephoneNumber>
+					<FaxNumber>800-351-5073</FaxNumber>
+					<EmailAddress>IPSJacksonOrders@ingramcontent.com</EmailAddress>
+				</Supplier>
+				<ReturnsConditions>
+					<ReturnsCodeType>02</ReturnsCodeType>
+					<ReturnsCode>Y</ReturnsCode>
+				</ReturnsConditions>
+				<ProductAvailability>10</ProductAvailability>
+				<Price>
+					<PriceType>01</PriceType>
+					<DiscountCoded>
+						<DiscountCodeType>02</DiscountCodeType>
+						<DiscountCodeTypeName>IPS</DiscountCodeTypeName>
+						<DiscountCode>S</DiscountCode>
+					</DiscountCoded>
+					<PriceAmount>85.00</PriceAmount>
+					<CurrencyCode>USD</CurrencyCode>
+					<Territory>
+						<CountriesIncluded>US</CountriesIncluded>
+					</Territory>
+				</Price>
+			</SupplyDetail>
+		</ProductSupply>
+		<ProductSupply>
+			<Market>
+				<Territory>
+					<CountriesIncluded>CA GB AT BE CY DE EE ES FI FR GR IE IT LT LU LV MT NL PT SI SK</CountriesIncluded>
+				</Territory>
+			</Market>
+			<SupplyDetail>
+				<Supplier>
+					<SupplierRole>00</SupplierRole>
+					<SupplierIdentifier>
+						<SupplierIDType>07</SupplierIDType>
+						<IDValue>631760X</IDValue>
+					</SupplierIdentifier>
+					<SupplierName>Two Rivers Distribution</SupplierName>
+					<TelephoneNumber>800-343-4499</TelephoneNumber>
+					<FaxNumber>800-351-5073</FaxNumber>
+					<EmailAddress>IPSJacksonOrders@ingramcontent.com</EmailAddress>
+				</Supplier>
+				<ReturnsConditions>
+					<ReturnsCodeType>02</ReturnsCodeType>
+					<ReturnsCode>Y</ReturnsCode>
+				</ReturnsConditions>
+				<ProductAvailability>10</ProductAvailability>
+				<SupplyDate>
+					<SupplyDateRole>02</SupplyDateRole>
+					<Date dateformat="00">20190219</Date>
+				</SupplyDate>
+				<Price>
+					<PriceType>01</PriceType>
+					<DiscountCoded>
+						<DiscountCodeType>02</DiscountCodeType>
+						<DiscountCodeTypeName>IPS</DiscountCodeTypeName>
+						<DiscountCode>S</DiscountCode>
+					</DiscountCoded>
+					<PriceAmount>106.99</PriceAmount>
+					<CurrencyCode>CAD</CurrencyCode>
+					<Territory>
+						<CountriesIncluded>CA</CountriesIncluded>
+					</Territory>
+					<PriceDate>
+						<PriceDateRole>14</PriceDateRole>
+						<Date dateformat="00">20180309</Date>
+					</PriceDate>
+				</Price>
+				<Price>
+					<PriceType>01</PriceType>
+					<DiscountCoded>
+						<DiscountCodeType>02</DiscountCodeType>
+						<DiscountCodeTypeName>IPS</DiscountCodeTypeName>
+						<DiscountCode>S</DiscountCode>
+					</DiscountCoded>
+					<PriceAmount>66.00</PriceAmount>
+					<CurrencyCode>GBP</CurrencyCode>
+					<Territory>
+						<CountriesIncluded>GB</CountriesIncluded>
+					</Territory>
+					<PriceDate>
+						<PriceDateRole>14</PriceDateRole>
+						<Date dateformat="00">20180427</Date>
+					</PriceDate>
+				</Price>
+				<Price>
+					<PriceType>01</PriceType>
+					<DiscountCoded>
+						<DiscountCodeType>02</DiscountCodeType>
+						<DiscountCodeTypeName>IPS</DiscountCodeTypeName>
+						<DiscountCode>S</DiscountCode>
+					</DiscountCoded>
+					<PriceAmount>77.00</PriceAmount>
+					<CurrencyCode>EUR</CurrencyCode>
+					<Territory>
+						<CountriesIncluded>AT BE CY DE EE ES FI FR GR IE IT LT LU LV MT NL PT SI SK</CountriesIncluded>
+					</Territory>
+					<PriceDate>
+						<PriceDateRole>14</PriceDateRole>
+						<Date dateformat="00">20180309</Date>
+					</PriceDate>
+				</Price>
+			</SupplyDetail>
+		</ProductSupply>
+	</Product>
+</ONIXMessage>
